@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>win32disk</id>
+        <version>0.9.5</version>
+        <title>Win32 Disk Imager</title>
+        <authors>gruemaster, tuxinator2009</authors>
+        <owners>Mike Weaver</owners>
+        <projectUrl>http://sourceforge.net/projects/win32diskimager/</projectUrl>
+        <iconUrl>http://a.fsdn.com/allura/p/win32diskimager/icon</iconUrl>
+        <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A tool for writing images to USB sticks or SD/CF cards</description>
+        <summary>This utility is used to write img files to SD and USB memory devices. Simply run the utility, point it at your img, and then select the removable device to write to.</summary>
+        <tags>image admin usb</tags>
+    </metadata>
+</package>

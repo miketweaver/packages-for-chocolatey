@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>you-need-a-budget</id>
+    <version>4.4.3.729</version>
+    <title>You Need A Budget</title>
+    <authors>You Need A Budget</authors>
+    <owners>Vince Cima</owners>
+    <iconUrl>https://sslcdn-youneedabudgetco.netdna-ssl.com/img/pages/Company/YNAB_logo.png</iconUrl>
+    <summary>Stop living paycheck to paycheck, get out of debt, and save money faster with YNAB.</summary>
+    <description>Stop living paycheck to paycheck, get out of debt, and save money faster with YNAB.</description>
+    <projectUrl>https://www.youneedabudget.com</projectUrl>
+    <tags>financial YouNeedABudget</tags>
+    <licenseUrl>https://www.youneedabudget.com</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
