@@ -8,7 +8,7 @@
     <title>You Need A Budget</title>
     <authors>You Need A Budget</authors>
     <owners>Vince Cima</owners>
-    <iconUrl>https://sslcdn-youneedabudgetco.netdna-ssl.com/img/pages/Company/YNAB_logo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/miketweaver/packages-for-chocolatey/master/icons/you-need-a-budget.png</iconUrl>
     <summary>Stop living paycheck to paycheck, get out of debt, and save money faster with YNAB.</summary>
     <description>Stop living paycheck to paycheck, get out of debt, and save money faster with YNAB.</description>
     <projectUrl>https://www.youneedabudget.com</projectUrl>
