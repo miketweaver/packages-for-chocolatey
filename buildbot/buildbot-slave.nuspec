@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>buildbot-slave</id>
+    <version>0.8.12</version>
+    <title>BuildBot Slave</title>
+    <authors>Brian Warner, Dustin J. Mitchell.</authors>
+    <owners>Mike Weaver</owners>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <projectUrl>http://buildbot.net/</projectUrl>
+    <iconUrl>http://buildbot.net/img/nut.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Buildbot is an open-source framework for automating software build, test, and release processes.</description>
+    <summary>Buildbot is an open-source framework for automating software build, test, and release processes.</summary>
+    <releaseNotes>This should install the lastest version of BuildBot via Easy.Install</releaseNotes>
+    <copyright>Software Freedom Conservancy</copyright>
+    <tags>zope.interface python easy_install</tags>
+    <dependencies>
+      <dependency id="easy.install" />
+    </dependencies>
+  </metadata>
+</package>

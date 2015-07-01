@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>zope.interface</id>
+    <version>4.1.2</version>
+    <title>Interfaces for Python</title>
+    <authors>Zope Foundation and Contributors</authors>
+    <owners>Mike Weaver</owners>
+    <licenseUrl>http://old.zope.org/Resources/License/ZPL-2.1</licenseUrl>
+    <projectUrl>http://docs.zope.org/zope.interface/</projectUrl>
+    <iconUrl>https://github.com/adorepump/chocolatey-packages/raw/master/pip/python-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Zope.Interface is a pachkage intended to be independently resuable in any Python Project.</description>
+    <summary>This package provides an implementation of “object interfaces” for Python. Interfaces are a mechanism for labeling objects as conforming to a given API or contract. So, this package can be considered as implementation of the Design By Contract methodology support in Python.</summary>
+    <releaseNotes>This should install the lastest version of Zope.Interface via Easy.Install</releaseNotes>
+    <copyright>Zope Foundation and Contributors</copyright>
+    <tags>zope.interface python easy_install</tags>
+    <dependencies>
+      <dependency id="easy.install" />
+    </dependencies>
+  </metadata>
+</package>
