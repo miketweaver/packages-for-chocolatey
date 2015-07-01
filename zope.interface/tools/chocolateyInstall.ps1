@@ -30,13 +30,7 @@ function CreateFolder ([string]$Path) {
 }
 
 function chocolatey-install() {
-    try {
       easy_install zope.interface
-      Write-ChocolateySuccess 'zope.interface'
-    } catch {
-      Write-ChocolateyFailure 'zope.interface' "$($_.Exception.Message)"
-      throw 
-    }
 }
 
 chocolatey-install   

@@ -29,14 +29,4 @@ function CreateFolder ([string]$Path) {
   New-Item -Path $Path -type directory -Force
 }
 
-function chocolatey-install() {
-    try {
-      easy_install buildbot-slave
-      Write-ChocolateySuccess 'buildbot-slave'
-    } catch {
-      Write-ChocolateyFailure 'buildbot-slave' "$($_.Exception.Message)"
-      throw 
-    }
-}
-
-chocolatey-install   
+easy_install buildbot-slave   
