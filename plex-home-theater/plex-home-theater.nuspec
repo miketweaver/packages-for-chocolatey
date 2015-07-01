@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>plex-home-theater</id>
+    <title>Plex Home Theater</title>
+    <version>1.4.1.469</version>
+    <authors>Plex Home Theater</authors>
+    <owners>NightShade, mew1033</owners>
+    <summary>For those of you with a dedicated computer for your TV, Plex Home Theater celebrates your personal videos, music and photos and gives them the stage they deserve.</summary>
+    <description>For those of you with a dedicated computer for your TV, Plex Home Theater celebrates your personal videos, music and photos and gives them the stage they deserve. Simply download Plex Home Theater on your dedicated computer and the free Plex Media Server on your home computer then sit back and enjoy.</description>
+    <projectUrl>https://plex.tv</projectUrl>
+    <tags>media Plex PlexHomeTheater</tags>
+    <licenseUrl>https://plex.tv</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/miketweaver/packages-for-chocolatey/master/icons/plex-home-theater.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
