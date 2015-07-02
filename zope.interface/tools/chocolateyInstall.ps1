@@ -29,8 +29,4 @@ function CreateFolder ([string]$Path) {
   New-Item -Path $Path -type directory -Force
 }
 
-function chocolatey-install() {
-      easy_install zope.interface
-}
-
-chocolatey-install   
+easy_install zope.interface
