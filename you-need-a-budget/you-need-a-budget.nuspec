@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>you-need-a-budget</id>
-    <version>4.4.3.729</version>
+    <version>4.4.3.820</version>
     <title>You Need A Budget</title>
     <authors>You Need A Budget</authors>
     <owners>Vince Cima</owners>
